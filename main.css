@@ -1,0 +1,33 @@
+/*This is my CSS page*/
+/**/
+/*Color Palette*/
+/*#3CC3A7*/
+/*#3C9CC3*/
+/*#3CC363*/
+
+.customfont{
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    /*Text Shadow creates shadow behind text may be colored diffrently from text to give glow or other effects*/
+    /*text-shadow: 4px 4px 4px #aaa;*/
+}
+.customfont2{
+    font-family: 'Raleway', sans-serif;
+    /*Text Shadow creates shadow behind text may be colored diffrently from text to give glow or other effects*/
+    /*text-shadow: 4px 4px 4px #aaa;*/
+}
+.headerbox{
+    height:75px;
+    width: auto;
+}
+.headerpadding{
+    padding: 20px;
+}
+
+.newdivmargin{
+    margin-top: 20px;
+}
+
+.navbar-custom{
+    background-color: #3C9CC3;
+}
