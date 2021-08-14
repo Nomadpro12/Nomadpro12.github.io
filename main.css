@@ -1,10 +1,24 @@
 /*This is my CSS page*/
 /**/
 /*Color Palette*/
-/*#3CC3A7*/
-/*#3C9CC3*/
-/*#3CC363*/
+/*Headers: Gunmetal Grey*/ /*#636059*/
+/*Div Boxes: Sage Green/ /*#A39D92*/
+/*Sub Boxes: Pewter*/ /*#C0C9CC*/
 
+body{
+    background-color: #C0C9CC;
+    width: auto;
+    border-width: 20px;
+    
+}
+p{
+    padding: 20px;
+    width: 75%;
+}
+.paraheader{
+    padding-left: 20px;
+    padding-top: 10px;
+}
 .customfont{
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
@@ -17,7 +31,8 @@
     /*text-shadow: 4px 4px 4px #aaa;*/
 }
 .headerbox{
-    height:75px;
+    background-color: #A39D92;
+    height:75%;
     width: auto;
 }
 .headerpadding{
@@ -25,9 +40,29 @@
 }
 
 .newdivmargin{
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 .navbar-custom{
-    background-color: #3C9CC3;
+    background-color: #636059;
+}
+
+.largediv{
+    border-radius:10px;
+    background-color: #A39D92;
+    border-width: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 75%;
+}
+.smalldiv{
+    height: auto;
+    width: 30%;
+    border-radius:10px;
+    background-color: #A39D92;
+    border-width: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left:7.5%;
+    margin-right:7.5%;
 }
