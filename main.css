@@ -1,19 +1,29 @@
 /*This is my CSS page*/
-/**/
+
 /*Color Palette*/
-/*Headers: Gunmetal Grey*/ /*#636059*/
-/*Div Boxes: Sage Green/ /*#A39D92*/
-/*Sub Boxes: Pewter*/ /*#C0C9CC*/
+/*Headers: Gunmetal Grey*/ /*#636059*/ /*rgb(99,96,89)*/
+/*Div Boxes: Sage Green/ /*#A39D92*/ /*rgb(163,156,146)*/
+/*Sub Boxes: Pewter*/ /*#C0C9CC*/ /*rgb(192,201,204)*/
 
 body{
-    background-color: #C0C9CC;
+   /* background-color: #C0C9CC;*/
+    background-image: linear-gradient(225deg, rgba(99,96,89,1) 0%, rgba(163,157,146,1) 50%, rgba(192,201,204,1) 100%);
     width: auto;
     border-width: 20px;
     
 }
 p{
-    padding: 20px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
     width: 75%;
+}
+footer{
+    background-color: #636059;
+    margin-top: 40%;
+    padding-bottom: 3px;
+    display: block;
 }
 .paraheader{
     padding-left: 20px;
@@ -27,6 +37,7 @@ p{
 }
 .customfont2{
     font-family: 'Raleway', sans-serif;
+    color: #ffffff;
     /*Text Shadow creates shadow behind text may be colored diffrently from text to give glow or other effects*/
     /*text-shadow: 4px 4px 4px #aaa;*/
 }
@@ -38,7 +49,10 @@ p{
 .headerpadding{
     padding: 20px;
 }
-
+.footerpadding{
+    padding-left: 20px;
+    padding-top: 20px;
+}
 .newdivmargin{
     margin-top: 25px;
 }
@@ -48,21 +62,33 @@ p{
 }
 
 .largediv{
+    height: auto; 
+    width: 75%;
     border-radius:10px;
     background-color: #A39D92;
-    border-width: 10px;
+    border: 2px solid #636059;
     padding-top: 10px;
     padding-bottom: 10px;
-    width: 75%;
 }
 .smalldiv{
     height: auto;
     width: 30%;
     border-radius:10px;
     background-color: #A39D92;
-    border-width: 10px;
+    border: 2px solid #636059;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-left:7.5%;
     margin-right:7.5%;
+}
+.videodiv{
+    height: auto;
+    width: 20%;
+    border-radius:10px;
+    background-color: #A39D92;
+    border-width: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 3.7%;
+    margin-right: 3.7%; 
 }
