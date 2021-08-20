@@ -5,9 +5,17 @@
 /*Div Boxes: Sage Green/ /*#A39D92*/ /*rgb(163,156,146)*/
 /*Sub Boxes: Pewter*/ /*#C0C9CC*/ /*rgb(192,201,204)*/
 
+/*Color Palette*//**/
+/*Cool Grey #606462*/
+/*Forest Green #00735C*/
+/*Forest Green Darker #00493A*/
+/**/
+/**/
+
+
+
 body{
-   /* background-color: #C0C9CC;*/
-    background-image: linear-gradient(225deg, rgba(99,96,89,1) 0%, rgba(163,157,146,1) 50%, rgba(192,201,204,1) 100%);
+    background-color: #ffffff;
     width: auto;
     border-width: 20px;
     
@@ -20,10 +28,11 @@ p{
     width: 75%;
 }
 footer{
-    background-color: #636059;
-    margin-top: 40%;
+    background-color: #606462;
+    width: 100%;
+    text-align: left;
+    margin-top: 100%;
     padding-bottom: 3px;
-    display: block;
 }
 .paraheader{
     padding-left: 20px;
@@ -35,6 +44,13 @@ footer{
     /*Text Shadow creates shadow behind text may be colored diffrently from text to give glow or other effects*/
     /*text-shadow: 4px 4px 4px #aaa;*/
 }
+.customfontheader{
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    /*Text Shadow creates shadow behind text may be colored diffrently from text to give glow or other effects*/
+    /*text-shadow: 4px 4px 4px #aaa;*/
+}
 .customfont2{
     font-family: 'Raleway', sans-serif;
     color: #ffffff;
@@ -42,12 +58,13 @@ footer{
     /*text-shadow: 4px 4px 4px #aaa;*/
 }
 .headerbox{
-    background-color: #A39D92;
+    background-color: #01997b;
     height:75%;
     width: auto;
 }
 .headerpadding{
-    padding: 20px;
+    padding: 10px;
+    margin-right: 20px;
 }
 .footerpadding{
     padding-left: 20px;
@@ -58,15 +75,15 @@ footer{
 }
 
 .navbar-custom{
-    background-color: #636059;
+    background-color: #01997b;
 }
 
 .largediv{
     height: auto; 
     width: 75%;
     border-radius:10px;
-    background-color: #A39D92;
-    border: 2px solid #636059;
+    background-color: #01997b;
+    
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -74,8 +91,8 @@ footer{
     height: auto;
     width: 30%;
     border-radius:10px;
-    background-color: #A39D92;
-    border: 2px solid #636059;
+    background-color: #00735C;
+    
     padding-top: 10px;
     padding-bottom: 10px;
     margin-left:7.5%;
@@ -85,7 +102,7 @@ footer{
     height: auto;
     width: 20%;
     border-radius:10px;
-    background-color: #A39D92;
+    background-color: #00735C;
     border-width: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
