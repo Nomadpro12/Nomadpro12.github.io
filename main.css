@@ -12,10 +12,8 @@
 /**/
 /**/
 
-
-
 body{
-    background-color: #ffffff;
+    background-color: #C0C9CC;
     width: auto;
     border-width: 20px;
     
@@ -27,12 +25,52 @@ p{
     padding-bottom: 20px;
     width: 75%;
 }
+pre{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    width: 75%;
+}
 footer{
     background-color: #606462;
+    position: relative;
     width: 100%;
     text-align: left;
-    margin-top: 100%;
+    margin-top: 35%;
     padding-bottom: 3px;
+}
+embed{
+    margin-left: 5%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+a:link { 
+    text-decoration: none; 
+}
+a:visited {
+    text-decoration: none; 
+    }
+a:hover {
+    text-decoration: none; 
+    }
+a:active { 
+    text-decoration: none; 
+}
+img {
+    border: 2px solid #01997b;
+    border-radius: 4px;
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px #00735C;
 }
 .paraheader{
     padding-left: 20px;
@@ -51,12 +89,20 @@ footer{
     /*Text Shadow creates shadow behind text may be colored diffrently from text to give glow or other effects*/
     /*text-shadow: 4px 4px 4px #aaa;*/
 }
+.customfonttitle{
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 68px;
+    /*Text Shadow creates shadow behind text may be colored diffrently from text to give glow or other effects*/
+    /*text-shadow: 4px 4px 4px #aaa;*/
+}
 .customfont2{
     font-family: 'Raleway', sans-serif;
     color: #ffffff;
     /*Text Shadow creates shadow behind text may be colored diffrently from text to give glow or other effects*/
     /*text-shadow: 4px 4px 4px #aaa;*/
 }
+
 .headerbox{
     background-color: #01997b;
     height:75%;
@@ -77,27 +123,36 @@ footer{
 .navbar-custom{
     background-color: #01997b;
 }
-
+/*Selection of Divs*/
 .largediv{
     height: auto; 
     width: 75%;
     border-radius:10px;
     background-color: #01997b;
-    
     padding-top: 10px;
     padding-bottom: 10px;
+}
+.middiv{
+    height: auto;
+    width: 50%;
+    border-radius:10px;
+    background-color: #00735C;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left:7.5%;
+    margin-right:7.5%;
 }
 .smalldiv{
     height: auto;
     width: 30%;
     border-radius:10px;
     background-color: #00735C;
-    
     padding-top: 10px;
     padding-bottom: 10px;
     margin-left:7.5%;
     margin-right:7.5%;
 }
+
 .videodiv{
     height: auto;
     width: 20%;
