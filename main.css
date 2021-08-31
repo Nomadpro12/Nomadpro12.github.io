@@ -12,17 +12,62 @@
 /**/
 /**/
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .ctmpara{
+        font-size: 12px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+        width: 50%;
+    }
+    .customfontheader{
+        font-size: 15px;
+    }
+    .customfonttitle{
+        font-size: 18px;
+    }
+    .paraheader{
+        font-size: 18px;
+        padding-left: 0px;
+        padding-top: 5px;
+    }
+    .newdivmargin{
+        margin-top: 0px;
+    }
+    
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .ctmpara{
+        font-size: 20px;
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .ctmpara{
+        font-size: 25px;
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .ctmpara{
+        font-size: 25px;
+    }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .ctmpara{
+        font-size: 40px;
+    }
+}
+
 body{
     background-color: #C0C9CC;
     width: auto;
-    border-width: 20px;
     
 }
-p{
-    font-size: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
+.ctmpara{
     width: 75%;
 }
 pre{
@@ -68,13 +113,17 @@ img {
     margin-right: auto;
     width: 50%;
 }
-
 img:hover {
     box-shadow: 0 0 2px 1px #00735C;
 }
+nav{
+    width: 100%;    
+}
+.full-width{
+    width: 100%;
+}
 .paraheader{
-    padding-left: 20px;
-    padding-top: 10px;
+    margin-bottom: 5px;
 }
 .customfont{
     font-family: 'Montserrat', sans-serif;
@@ -85,14 +134,13 @@ img:hover {
 .customfontheader{
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
-    font-size: 18px;
     /*Text Shadow creates shadow behind text may be colored diffrently from text to give glow or other effects*/
     /*text-shadow: 4px 4px 4px #aaa;*/
 }
 .customfonttitle{
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
-    font-size: 68px;
+    margin-bottom: 0;
     /*Text Shadow creates shadow behind text may be colored diffrently from text to give glow or other effects*/
     /*text-shadow: 4px 4px 4px #aaa;*/
 }
@@ -102,9 +150,10 @@ img:hover {
     /*Text Shadow creates shadow behind text may be colored diffrently from text to give glow or other effects*/
     /*text-shadow: 4px 4px 4px #aaa;*/
 }
-
+.btn-customcolor, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #01997b !important;
+}
 .headerbox{
-    background-color: #01997b;
     height:75%;
     width: auto;
 }
@@ -123,6 +172,12 @@ img:hover {
 .navbar-custom{
     background-color: #01997b;
 }
+
+.icon{
+    display: block;
+    align-items: center;
+}
+
 /*Selection of Divs*/
 .largediv{
     height: auto; 
