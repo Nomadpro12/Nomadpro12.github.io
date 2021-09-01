@@ -15,17 +15,18 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .ctmpara{
-        font-size: 12px;
+        font-size: 15px;
         padding-left: 5px;
         padding-right: 5px;
         padding-bottom: 5px;
         width: 50%;
+        margin: 0;
     }
     .customfontheader{
-        font-size: 15px;
+        font-size: 18px;
     }
     .customfonttitle{
-        font-size: 18px;
+        font-size: 20px;
     }
     .paraheader{
         font-size: 18px;
@@ -35,30 +36,136 @@
     .newdivmargin{
         margin-top: 0px;
     }
-    
+    .custompdf{
+        width: 100%;
+        height: 667px;
+    }
+    .smalldiv{
+        width: 40%;
+    }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     .ctmpara{
+        font-size: 15px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+        margin: 0;
+    }
+    .customfontheader{
+        font-size: 24px;
+    }
+    .customfonttitle{
         font-size: 20px;
+    }
+    .paraheader{
+        font-size: 18px;
+        padding-left: 0px;
+        padding-top: 5px;
+    }
+    .newdivmargin{
+        margin-top: 0px;
+    }
+    .custompdf{
+        width: 100%;
+        height: 1024px;
+    }
+    .smalldiv{
+        width: 40%;
     }
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .ctmpara{
+        font-size: 22px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+        margin: 0;
+    }
+    .customfontheader{
+        font-size: 15px;
+    }
+    .customfonttitle{
+        font-size: 18px;
+    }
+    .paraheader{
         font-size: 25px;
+        padding-left: 0px;
+        padding-top: 5px;
+    }
+    .newdivmargin{
+        margin-top: 0px;
+    }
+    .custompdf{
+        width: 100%;
+        height: 1024px;
+    }
+    .smalldiv{
+        width: 40%;
     }
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     .ctmpara{
-        font-size: 25px;
+        font-size: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+        margin: 0;
+    }
+    .customfontheader{
+        font-size: 18px;
+    }
+    .customfonttitle{
+        font-size: 40px;
+    }
+    .paraheader{
+        font-size: 30px;
+        padding-left: 0px;
+        padding-top: 5px;
+    }
+    .newdivmargin{
+        margin-top: 0px;
+    }
+    .custompdf{
+        width: 100%;
+        height: 1080px;
+    }
+    .smalldiv{
+        width: 30%;
     }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .ctmpara{
-        font-size: 40px;
+        font-size: 25px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+        margin: 0;
+    }
+    .customfontheader{
+        font-size: 25px;
+    }
+    .customfonttitle{
+        font-size: 60px;
+    }
+    .paraheader{
+        font-size: 50px;
+        padding-left: 0px;
+        padding-top: 5px;
+    }
+    .newdivmargin{
+        margin-top: 0px;
+    }
+    .custompdf{
+        width: 100%;
+        height: 1080px;
+    }
+    .smalldiv{
+        width: 30%;
     }
 }
 
@@ -106,12 +213,12 @@ a:active {
 }
 img {
     border: 2px solid #01997b;
-    border-radius: 4px;
+    border-radius: 2px;
     padding: 5px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 100%;
 }
 img:hover {
     box-shadow: 0 0 2px 1px #00735C;
@@ -123,7 +230,7 @@ nav{
     width: 100%;
 }
 .paraheader{
-    margin-bottom: 5px;
+    margin-bottom: 4px;
 }
 .customfont{
     font-family: 'Montserrat', sans-serif;
@@ -178,6 +285,9 @@ nav{
     align-items: center;
 }
 
+.custompdf{
+    border: 0;
+}
 /*Selection of Divs*/
 .largediv{
     height: auto; 
@@ -199,7 +309,6 @@ nav{
 }
 .smalldiv{
     height: auto;
-    width: 30%;
     border-radius:10px;
     background-color: #00735C;
     padding-top: 10px;

@@ -22,9 +22,11 @@
 
     <nav class="navbar navbar-expand-sm navbar-custom">
         <div class="container-fluid full-width">
-        <button class="navbar-toggler btn btn-customcolor customfontheader" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            Press to See
-        </button>
+            <button class="navbar-toggler btn btn-customcolor customfontheader" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                </svg>
+            </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
             <li class="nav-item">
@@ -38,7 +40,7 @@
             </li>
             <!-- Dropdown -->
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle customfontheader" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Portfolio</a>
+                <a class="nav-link dropdown-toggle customfontheader headerpadding" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Portfolio</a>
                 <ul class="dropdown-menu navbar-custom" aria-labelledby="navbarDarkDropdownMenuLink">
                 <li><a class="dropdown-item customfontheader" href="./art.html">2D & 3D Art</a></li>
                 <li><a class="dropdown-item customfontheader" href="./animation.html">Animations and Video</a></li>
@@ -58,7 +60,7 @@
         </div>
         <div class="row d-flex justify-content-center"> 
             <div class="col-md-2 newdivmargin largediv ">
-                    <embed src="../cv/ResumeWebsafeCopy.pdf" type="application/pdf" width="90%" height="1920px"></embed>
+                    <iframe class="custompdf" src="../cv/ResumeWebsafeCopy.pdf"></iframe>
             </div>
         </div>
     </div>
