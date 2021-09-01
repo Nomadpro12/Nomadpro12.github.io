@@ -41,7 +41,20 @@
         height: 667px;
     }
     .smalldiv{
-        width: 40%;
+        width: 65%;
+    }
+    .middiv{
+        width: 70%;
+    }
+    .largediv{
+        width: 75%;
+    }
+    .videodiv{
+        width: 75%;
+    }
+    .videoiframe{
+        width: 100%;
+        height: 100%;
     }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -72,7 +85,20 @@
         height: 1024px;
     }
     .smalldiv{
-        width: 40%;
+        width: 45%;
+    }
+    .middiv{
+        width: 60%
+    }
+    .largediv{
+        width: 75%;
+    }
+    .videodiv{
+        width: 75%;
+    }
+    .videoiframe{
+        width: 100%;
+        height: 100%;
     }
 }
 /* Medium devices (landscape tablets, 768px and up) */
@@ -105,6 +131,19 @@
     .smalldiv{
         width: 40%;
     }
+    .middiv{
+        width: 50%;
+    }
+    .largediv{
+        width: 75%;
+    }
+    .videodiv{
+        width: 75%;
+    }
+    .videoiframe{
+        width: 100%;
+        height: 480px;
+    }
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
@@ -136,6 +175,19 @@
     .smalldiv{
         width: 30%;
     }
+    .middiv{
+        width: 50%;
+    }
+    .largediv{
+        width: 75%;
+    }
+    .videodiv{
+        width: 75%;
+    }
+    .videoiframe{
+        width: 100%;
+        height: 480px;
+    }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
@@ -166,6 +218,19 @@
     }
     .smalldiv{
         width: 30%;
+    }
+    .middiv{
+        width: 50%;
+    }
+    .largediv{
+        width: 75%;
+    }
+    .videodiv{
+        width: 35%;
+    }
+    .videoiframe{
+        width: 80%;
+        height: 480px;
     }
 }
 
@@ -291,7 +356,6 @@ nav{
 /*Selection of Divs*/
 .largediv{
     height: auto; 
-    width: 75%;
     border-radius:10px;
     background-color: #01997b;
     padding-top: 10px;
@@ -299,7 +363,6 @@ nav{
 }
 .middiv{
     height: auto;
-    width: 50%;
     border-radius:10px;
     background-color: #00735C;
     padding-top: 10px;
@@ -319,12 +382,14 @@ nav{
 
 .videodiv{
     height: auto;
-    width: 20%;
     border-radius:10px;
     background-color: #00735C;
-    border-width: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-left: 3.7%;
-    margin-right: 3.7%; 
+    z-index: 1;
+    padding: 30px;
+    margin: 20px;
+}
+.videoiframe{
+    padding: 10px;
+    margin: 0;
+    border-radius:10px;
 }
