@@ -17,6 +17,7 @@ footer{
     position: fixed;
     bottom: 0;
     height: auto;   /* Height of the footer */
+    z-index: 7;
 }
 
 .navcolor{
@@ -80,6 +81,7 @@ p{
     padding:20px;
     margin-top: 25px;
     width: 95%;
+    text-align: center;
 }
 .customcard{  
     width: auto;
@@ -127,6 +129,9 @@ img{
         margin-top: 25px;
         width: 95%;
     }
+    h1{
+        font-size: 22px;
+    }
 }
 
   /* Styles for medium screens (768px - 991px) */
@@ -148,6 +153,9 @@ img{
         margin-top: 25px;
         width: 95%;
     }
+    h1{
+        font-size: 22px;
+    }
 }
 
   /* Styles for large screens (992px and up) */
@@ -160,7 +168,7 @@ img{
         padding:20px;
         margin-top:130px;
         margin-bottom: 20px;
-        width: 85%;
+        width: 65%;
     }
     .customheader{
         height: auto; 
@@ -168,7 +176,7 @@ img{
         background-color: #CAD2C5;
         padding:20px;
         margin-top: 150px;
-        width: 85%
+        width: 75%;
     }
     .videoiframe{
         width: 100%;
