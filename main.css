@@ -1,286 +1,42 @@
-/*This is my CSS page*/
-
-/*Color Palette*//**/
-/*Cool Grey #606462*/
-/*Forest Green #00735C*/
-/*Forest Green Darker #00493A*/
-/**/
-/**/
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    .ctmpara{
-        font-size: 15px;
-        padding-left: 5px;
-        padding-right: 5px;
-        padding-bottom: 5px;
-        width: 50%;
-        margin: 0;
-    }
-    .customfontheader{
-        font-size: 18px;
-    }
-    .customfonttitle{
-        font-size: 20px;
-    }
-    .paraheader{
-        font-size: 18px;
-        padding-left: 0;
-        padding-top: 5px;
-        padding-bottom: 5px;
-    }
-    .newdivmargin{
-        margin-top: 0px;
-    }
-    .custompdf{
-        width: 100%;
-        height: 667px;
-    }
-    .smalldiv{
-        width: 65%;
-    }
-    .middiv{
-        width: 70%;
-    }
-    .largediv{
-        width: 75%;
-    }
-    .videodiv{
-        width: 75%;
-    }
-    .videoiframe{
-        width: 100%;
-        height: 100%;
-    }
-    .nolistbullets{
-        font-size: 15px;
-    }
-}
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    .ctmpara{
-        font-size: 15px;
-        padding-left: 5px;
-        padding-right: 5px;
-        padding-bottom: 5px;
-        margin: 0;
-    }
-    .customfontheader{
-        font-size: 24px;
-    }
-    .customfonttitle{
-        font-size: 20px;
-    }
-    .paraheader{
-        font-size: 18px;
-        padding-left: 0;
-        padding-top: 5px;
-        padding-bottom: 5px;
-    }
-    .newdivmargin{
-        margin-top: 0px;
-    }
-    .custompdf{
-        width: 100%;
-        height: 1024px;
-    }
-    .smalldiv{
-        width: 45%;
-    }
-    .middiv{
-        width: 60%
-    }
-    .largediv{
-        width: 75%;
-    }
-    .videodiv{
-        width: 75%;
-    }
-    .videoiframe{
-        width: 100%;
-        height: 100%;
-    }
-    .nolistbullets{
-        font-size: 15px;
-    }
-}
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    .ctmpara{
-        font-size: 22px;
-        padding-left: 5px;
-        padding-right: 5px;
-        padding-bottom: 5px;
-        margin: 0;
-    }
-    .customfontheader{
-        font-size: 15px;
-    }
-    .customfonttitle{
-        font-size: 18px;
-    }
-    .paraheader{
-        font-size: 25px;
-        padding-left: 0;
-        padding-top: 5px;
-        padding-bottom: 5px;
-    }
-    .newdivmargin{
-        margin-top: 0px;
-    }
-    .custompdf{
-        width: 100%;
-        height: 1024px;
-    }
-    .smalldiv{
-        width: 40%;
-    }
-    .middiv{
-        width: 50%;
-    }
-    .largediv{
-        width: 75%;
-    }
-    .videodiv{
-        width: 75%;
-    }
-    .videoiframe{
-        width: 100%;
-        height: 480px;
-    }
-    .nolistbullets{
-        font-size: 22px;
-    }
-}
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    .ctmpara{
-        font-size: 20px;
-        padding-left: 5px;
-        padding-right: 5px;
-        padding-bottom: 5px;
-        margin: 0;
-    }
-    .customfontheader{
-        font-size: 18px;
-    }
-    .customfonttitle{
-        font-size: 40px;
-    }
-    .paraheader{
-        font-size: 30px;
-        padding-left: 0;
-        padding-top: 5px;
-        padding-bottom: 5px;
-    }
-    .newdivmargin{
-        margin-top: 0px;
-    }
-    .custompdf{
-        width: 100%;
-        height: 1080px;
-    }
-    .smalldiv{
-        width: 30%;
-    }
-    .middiv{
-        width: 50%;
-    }
-    .largediv{
-        width: 75%;
-    }
-    .videodiv{
-        width: 75%;
-    }
-    .videoiframe{
-        width: 100%;
-        height: 480px;
-    }
-    .nolistbullets{
-        font-size: 20px;
-    }
-}
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    .ctmpara{
-        font-size: 24px;
-        padding-left: 5px;
-        padding-right: 5px;
-        padding-bottom: 5px;
-        margin: 0;
-    }
-    .customfontheader{
-        font-size: 25px;
-    }
-    .customfonttitle{
-        font-size: 60px;
-    }
-    .paraheader{
-        font-size: 45px;
-        padding-left: 0px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-    }
-    .newdivmargin{
-        margin-top: 0px;
-    }
-    .custompdf{
-        width: 100%;
-        height: 1080px;
-    }
-    .smalldiv{
-        width: 30%;
-    }
-    .middiv{
-        width: 50%;
-    }
-    .largediv{
-        width: 75%;
-    }
-    .videodiv{
-        width: 35%;
-    }
-    .videoiframe{
-        width: 80%;
-        height: 480px;
-    }
-    .nolistbullets{
-        font-size: 24px;
-    }
+.testborder{
+    border-style: solid;
+    margin-block: 8px;
 }
 
 body{
-    background-color: #C0C9CC;
+    background-color: #354f52;
     width: auto;
     
 }
-.ctmpara{
-    width: 75%;
-}
-pre{
-    font-size: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    width: 75%;
-}
 footer{
-    background-color: #606462;
-    position: relative;
+    background-color: #52796f;
+    color: black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
     width: 100%;
-    text-align: left;
-    margin-top: 35%;
-    padding-bottom: 3px;
+    padding-top: 15px;
+    margin-top:25%;
 }
-embed{
-    margin-left: 5%;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
+
+.navcolor{
+    background-color: #52796f;
+}
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+a{
+    color:black;
 }
 a:link { 
     text-decoration: none; 
+    color:black;
 }
 a:visited {
     text-decoration: none; 
@@ -291,82 +47,12 @@ a:hover {
 a:active { 
     text-decoration: none; 
 }
-img {
-    border: 2px solid #01997b;
-    border-radius: 2px;
-    padding: 5px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
+/*Paragraph and Header settings*/
+h1{
+    font-size: 25px;
 }
-img:hover {
-    box-shadow: 0 0 2px 1px #00735C;
-}
-nav{
-    width: 100%;    
-}
-.full-width{
-    width: 100%;
-}
-.paraheader{
-    margin-bottom: 4px;
-}
-.customfont{
-    font-family: 'Montserrat', sans-serif;
-    color: #ffffff;
-    /*Text Shadow creates shadow behind text may be colored diffrently from text to give glow or other effects*/
-    /*text-shadow: 4px 4px 4px #aaa;*/
-}
-.customfontheader{
-    font-family: 'Montserrat', sans-serif;
-    color: #ffffff;
-    /*Text Shadow creates shadow behind text may be colored diffrently from text to give glow or other effects*/
-    /*text-shadow: 4px 4px 4px #aaa;*/
-}
-.customfonttitle{
-    font-family: 'Montserrat', sans-serif;
-    color: #ffffff;
-    margin-bottom: 0;
-    /*Text Shadow creates shadow behind text may be colored diffrently from text to give glow or other effects*/
-    /*text-shadow: 4px 4px 4px #aaa;*/
-}
-.customfont2{
-    font-family: 'Raleway', sans-serif;
-    color: #ffffff;
-    /*Text Shadow creates shadow behind text may be colored diffrently from text to give glow or other effects*/
-    /*text-shadow: 4px 4px 4px #aaa;*/
-}
-.btn-customcolor, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-    background-color: #01997b !important;
-}
-.headerbox{
-    height:75%;
-    width: auto;
-}
-.headerpadding{
-    padding: 10px;
-    margin-right: 20px;
-}
-.footerpadding{
-    padding-left: 20px;
-    padding-top: 20px;
-}
-.newdivmargin{
-    margin-top: 25px;
-}
-
-.navbar-custom{
-    background-color: #01997b;
-}
-
-.icon{
-    display: block;
-    align-items: center;
-}
-
-.custompdf{
-    border: 0;
+p{
+    padding:15px;
 }
 .nolistbullets{
     list-style: none;
@@ -376,38 +62,37 @@ nav{
     padding-bottom: 2%;
     margin: 0;
 }
-/*Selection of Divs*/
-.largediv{
+
+/*Selection of custom Divs*/
+.customdiv{
     height: auto; 
     border-radius:10px;
-    background-color: #01997b;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    background-color: #CAD2C5;
+    padding:20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    width: 75%;
 }
-.middiv{
-    height: auto;
+.customheader{
+    height: auto; 
     border-radius:10px;
-    background-color: #00735C;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-left:7.5%;
-    margin-right:7.5%;
+    background-color: #CAD2C5;
+    padding:20px;
+    margin-top: 25px;
+    width: 95%;
 }
-.smalldiv{
-    height: auto;
-    border-radius:10px;
-    background-color: #00735C;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-left:7.5%;
-    margin-right:7.5%;
+.customcard{  
+    width: auto;
+    background-color: #84A98C;
 }
-
+/*lastdiv is used to give some space between the last post and the footer*/
+.lastdiv{
+    margin-bottom: 150px;
+}
 .videodiv{
-    height: auto;
+    height:auto;
     border-radius:10px;
-    background-color: #00735C;
-    z-index: 1;
+    background-color: #CAD2C5;
     padding: 30px;
     margin: 20px;
 }
@@ -415,4 +100,78 @@ nav{
     padding: 10px;
     margin: 0;
     border-radius:10px;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+/* Styles for small screens (up to 767px) */
+@media (max-width: 767px) {
+    /* Styles for small screens go here */
+    .customdiv{
+        height: auto; 
+        border-radius:10px;
+        background-color: #CAD2C5;
+        padding:20px;
+        margin-top: 25px;
+        width: 90%;
+    }
+    .customheader{
+        height: auto; 
+        border-radius:10px;
+        background-color: #CAD2C5;
+        padding:20px;
+        margin-top: 25px;
+        width: 95%;
+    }
+}
+
+  /* Styles for medium screens (768px - 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Styles for medium screens go here */
+    .customdiv{
+        height: auto; 
+        border-radius:10px;
+        background-color: #CAD2C5;
+        padding:20px;
+        margin-top: 25px;
+        width: 90%;
+    }
+    .customheader{
+        height: auto; 
+        border-radius:10px;
+        background-color: #CAD2C5;
+        padding:20px;
+        margin-top: 25px;
+        width: 95%;
+    }
+}
+
+  /* Styles for large screens (992px and up) */
+@media (min-width: 992px) {
+    /* Styles for large screens go here */
+    .customdiv{
+        height: auto; 
+        border-radius:10px;
+        background-color: #CAD2C5;
+        padding:20px;
+        margin-top:130px;
+        margin-bottom: 20px;
+        width: 85%;
+    }
+    .customheader{
+        height: auto; 
+        border-radius:10px;
+        background-color: #CAD2C5;
+        padding:20px;
+        margin-top: 150px;
+        width: 85%
+    }
+    .videoiframe{
+        width: 100%;
+        height: 480px;
+    }
 }
