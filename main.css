@@ -37,6 +37,7 @@ hr{
     text-align: center;
 }
 a{
+    font-family: 'Montserrat', sans-serif;
     color:black;
 }
 a:link { 
@@ -53,17 +54,27 @@ a:active {
     text-decoration: none; 
 }
 /*Paragraph and Header settings*/
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
 h1{
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 25px;
 }
 h3{
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
 }
 .paddedheader{
     padding: 12px;
 }
 p{
-    padding:12px;
+    padding-bottom: 8px;
+    padding-left: 8px;
 }
 .nolistbullets{
     list-style: none;
@@ -73,14 +84,16 @@ p{
     padding-bottom: 2%;
     margin: 0;
 }
-pre {
-    width: 55%;
+/*Make the text have better formatting with it centering*/
+.customparagraph{
     font-family: 'Montserrat', sans-serif;
-    font-size: auto;
-    padding: 2%;
-    overflow: hidden;
-    white-space: pre-wrap;
-    word-wrap: break-word;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.customparagraph2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
 }
 
 /*Selection of custom Divs*/
@@ -94,13 +107,28 @@ pre {
     width: 75%;
     
 }
+/*This is meant to be as smaller div than the first customdiv*/
+.customsmalldiv{
+    height: auto; 
+    border-radius:10px;
+    background-color: #CAD2C5;
+    padding:10px;
+    margin-left: 190px;
+    margin-right: 190px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    width: 25%;
+}
 .portdiv{
     height: auto; 
     border-radius:10px;
     background-color: #84A98C;
     padding:10px;
-    margin: auto;
-    width: 75%;
+    margin:auto;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
 }
 .customheader{
     height: auto; 
@@ -125,6 +153,7 @@ pre {
     background-color: #CAD2C5;
     padding: 30px;
     margin: 20px;
+    
 }
 .videoiframe{
     padding: 10px;
@@ -150,6 +179,17 @@ img{
         margin-top: 25px;
         width: 90%;
     }
+    .customsmalldiv{
+        height: auto; 
+        border-radius:10px;
+        background-color: #CAD2C5;
+        padding:10px;
+        margin-left: 190px;
+        margin-right: 190px;
+        margin-top: 25px;
+        margin-bottom: 50px;
+        width: 80%;
+    }
     .customheader{
         height: auto; 
         border-radius:10px;
@@ -166,7 +206,10 @@ img{
         text-align: center;
     }
     p{
-        font-size: 13px;
+        font-size: 14px;
+    }
+    li{
+        font-size: 15px;
     }
 }
 
@@ -180,6 +223,17 @@ img{
         padding:20px;
         margin-top: 25px;
         width: 90%;
+    }
+    .customsmalldiv{
+        height: auto; 
+        border-radius:10px;
+        background-color: #CAD2C5;
+        padding:10px;
+        margin-left: 190px;
+        margin-right: 190px;
+        margin-top: 25px;
+        margin-bottom: 50px;
+        width: 80%;
     }
     .customheader{
         height: auto; 
@@ -211,6 +265,17 @@ img{
         margin-top:130px;
         margin-bottom: 20px;
         width: 60%;
+    }
+    .customsmalldiv{
+        height: auto; 
+        border-radius:10px;
+        background-color: #CAD2C5;
+        padding:10px;
+        margin-left: 190px;
+        margin-right: 190px;
+        margin-top: 25px;
+        margin-bottom: 50px;
+        width: 25%;
     }
     .customheader{
         height: auto; 
